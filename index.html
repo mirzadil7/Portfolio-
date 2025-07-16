@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==
+   " crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="icon" type="image/x-icon" href="icon.png">
+   <link rel="stylesheet" href="style.css">
+   
+   <title>MIRZADIL</title>
+</head>
+
+<body>
+   <header>
+<nav>
+   <div class="leftA">Mirza<span class="one"> Adil</span></div>
+   <div class="hamburger" onclick="toggleMenu()">
+      <i class="fa fa-bars"></i>
+   </div>
+   <div class="rightB" id="nav-menu">
+      <ul>
+         <li><a href="">Home</a></li>
+         <li><a href="">About Me</a></li>
+         <li><a href="">Services</a></li>
+         <li><a href="">Contact Me</a></li>
+      </ul>
+   </div>
+</nav>
+
+   </header>
+
+   <main>
+      <section class=" A">
+         <div class="left">
+            Hi, My Name is Mirz<span class="one">Adil</span>
+            <div>and I am a passionate </div>
+            <div><span class="one">Web Develper</span></div>
+            <span id="element"></span>
+            <div class="button">
+               <button class="btn">Download Resume</button>
+            </div>
+         </div>
+         <div class="right">
+            <img src="img.PNG">
+         </div>
+      </section>
+
+
+      <section class="about">
+         <img class="img2" src="img.jpeg" />
+         <div class="main">
+            <div class="about-text">
+               <h2> About Me </h2>
+               <h5> Develper <span class="one">& Designer</span> </h5>
+               <p> I am front-end developer. Ican provide clean code and pixel perfect design.
+                  I also make the website more and more interactive with web animation.I can
+                  provide clean code and pixel perfect design. A responsive design make your
+                  webaite more and more intractive with web animation to all users, regardless
+                  of their device.</p>
+               <button type="button"> Let's Talk</button>
+      </section>
+      <section class="c">
+         <div>
+            <div class="service">
+               <div class="title">
+                  <h2> Our Services</h2>
+               </div>
+               <div class="box">
+                  <div class="card ">
+                     <i class="fa-solid fa-bars"></i>
+                     <h5> Web<span class="one"> Development</span></h5>
+                     <div class="pra">
+                        <p> Every website should be build with two primary goals: Firstly, its needs to work across all
+                           devices.secondly, its need to be fast as soon as possible will be.</p>
+                        <p style="text-align:center;">
+                           <a class="button" href="#"> Read More</a>
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="card ">
+                     <i class="fa-solid fa-user"></i>
+                     <h5> Graphics <span class="one">Design</span></h5>
+                     <div class="pra">
+                        <p> Passionate graphic designer specializing in eye-catching visuals for social media posts,
+                           with a keen eye for detail and a knack for creating engaging designs.</p>
+                        <p style="text-align:center;">
+                           <a class="button" href="#"> Read More</a>
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="card ">
+                     <i class="fa fa-bell" aria-hidden="true"></i>
+                     <h5> Front <span class="one">- end</span></h5>
+                     <div class="pra">
+                        <p> Frontend web developer with a flair for crafting seamless and intuitive user experiences.
+                           Skilled in HTML, CSS, and JavaScript to bring designs to life</p>
+                        <p style="text-align:center;">
+                           <a class="button" href="#"> Read More</a>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+      </section>
+      <div class="Contact-me ">
+         <p>Let me Get You A Beautiful website</p>
+         <a class="button-two" href="#">Hire Me</a>
+      </div>
+
+      <footer>
+         <p>MIRZA <span class="one"> ADIL<span></p>
+         <P> For More Html , CSS and JavaScript coding tutorial- please click on the link below to subscribe to my
+            channel.</P>
+         <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+         </div>
+         <p class="end">CopyRight by Mirza Adil</p>
+      </footer>
+   </main>
+   <script>
+   function toggleMenu() {
+      const menu = document.getElementById('nav-menu');
+      menu.classList.toggle('active');
+   }
+</script>
+
+</body>
+
+</html>
